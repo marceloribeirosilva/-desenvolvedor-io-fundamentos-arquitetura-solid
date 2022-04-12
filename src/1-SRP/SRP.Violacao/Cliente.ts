@@ -1,7 +1,7 @@
 import mysql from 'mysql2';
 import nodemailer from 'nodemailer';
 
-class Cliente {
+export default class Cliente {
   constructor(
     private ClienteId: number,
     private Nome: string,
